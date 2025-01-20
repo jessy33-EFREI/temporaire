@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-container, .donateurs-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    width: 80%;
+    max-width: 600px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #f7743d;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f7743d;
+}
+
+.donateur {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.donateur h2 {
+    margin: 0;
+    color: #f7743d;
+}
+
+.donateur p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.add-button-container {
+    text-align: right; /* Aligne le bouton à droite */
+    margin-bottom: 20px; /* Espace en dessous du bouton */
+}
+
+.add-button {
+    background-color: #007bff; /* Couleur de fond du bouton */
+    color: white; /* Couleur du texte */
+    padding: 10px 15px; /* Espacement interne */
+    border: none; /* Pas de bordure */
+    border-radius: 5px; /* Coins arrondis */
+    text-decoration: none; /* Pas de soulignement */
+    font-size: 16px; /* Taille du texte */
+}
+
+.add-button:hover {
+    background-color: #0056b3; /* Couleur de fond au survol */
+}
+
+.delete-button {
+    display: inline-block; /* Affiche le bouton en ligne */
+    background-color: #dc3545; /* Couleur de fond rouge */
+    color: white; /* Couleur du texte */
+    padding: 5px 10px; /* Espacement interne */
+    border: none; /* Pas de bordure */
+    border-radius: 5px; /* Coins arrondis */
+    text-decoration: none; /* Pas de soulignement */
+}
+
+.delete-button:hover {
+    background-color: #c82333; /* Couleur de fond au survol */
+}
